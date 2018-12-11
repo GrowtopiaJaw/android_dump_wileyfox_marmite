@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<preferred-activities>
+    <!-- Video viewer -->
+    <item name="com.google.android.apps.photos/.pager.HostPhotoPagerActivity">
+        <filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="video/*" />
+        </filter>
+    </item>
+    <!-- Image editor -->
+    <item name="com.google.android.apps.photos/.editor.intents.EditActivity">
+        <filter>
+            <action name="android.intent.action.EDIT" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="image/jpeg" />
+        </filter>
+    </item>
+    <!-- Image viewer -->
+    <item name="com.google.android.apps.photos/.home.HomeActivity">
+        <filter>
+            <action name="android.intent.action.MAIN" />
+            <cat name="android.intent.category.APP_GALLERY" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <!-- Wallpaper picker -->
+    <item name="com.android.wallpaperpicker/.WallpaperPickerActivity">
+        <filter>
+            <action name="android.intent.action.SET_WALLPAPER" />
+            <cat name="android.intent.category.DEFAULT" />
+        </filter>
+    </item>
+    <!-- Picture cropper -->
+    <item name="org.codeaurora.gallery/com.android.gallery3d.filtershow.crop.CropActivity">
+        <filter>
+            <action name="com.android.camera.action.CROP" />
+            <cat name="android.intent.category.DEFAULT" />
+            <type name="image/*" />
+        </filter>
+    </item>
+</preferred-activities>

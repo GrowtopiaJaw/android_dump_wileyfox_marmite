@@ -1,0 +1,5 @@
+app/LatinImeGoogle/LatinImeGoogle.apk filter=lfs diff=lfs merge=lfs -text
+app/Photos/Photos.apk filter=lfs diff=lfs merge=lfs -text
+priv-app/GmsCore/GmsCore.apk filter=lfs diff=lfs merge=lfs -text
+priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
+app/Chrome/Chrome.apk filter=lfs diff=lfs merge=lfs -text

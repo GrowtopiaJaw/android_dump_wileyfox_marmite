@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /data/preloads 0711 system system 
+    mkdir /data/preloads/demo 0755 shell shell
